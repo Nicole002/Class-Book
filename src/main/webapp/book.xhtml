@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h1>class book entries</h1>
+        
+        <h:form>
+            <p>write your entry here:</p>
+            <h:inputTextarea value="#{userLoginBean.entry}"/><br/><br/>
+            
+            <h:commandButton value="make entry" action="#{userLoginBean.doEntry()}"/><br/><br/><br/>
+            
+            <h:dataTable value="#{userLoginBean.entries}" var="e" styleClass="eintrag-table" headerClass="eintrag-table-header" 
+                         rowClasses="eintrag-table-odd-row, eintrag-table-even-row">
+                <h:column>
+                    <f:facet name="header">ID of entry</f:facet>
+                        #{e.idEntry}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Username</f:facet>
+                        #{e.username}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Date</f:facet>
+                        #{e.date}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Entry</f:facet>
+                        #{e.message}
+                </h:column>
+            </h:dataTable>
+        </h:form>
+    </h:body>
+</html>
+

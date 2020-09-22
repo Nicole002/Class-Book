@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <user>
+        <userID>1</userID>
+        <userFirstname>Nicole</userFirstname>
+        <userLastname>Schmidlin</userLastname>
+        <username>nici</username>
+        <userPassword>fisch</userPassword>
+    </user>
+    <user>
+        <userID>2</userID>
+        <userFirstname>Dario</userFirstname>
+        <userLastname>Silletta</userLastname>
+        <username>dari</username>
+        <userPassword>roxy</userPassword>
+    </user>
+    <user>
+        <userID>3</userID>
+        <userFirstname>Robin</userFirstname>
+        <userLastname>Angstmann</userLastname>
+        <username>angschti</username>
+        <userPassword>birne</userPassword>
+    </user>
+</root>

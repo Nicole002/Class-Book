@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<root>
+  <entry>
+    <entryID>1</entryID>
+    <username>nici</username>
+    <date>22/09/2020</date>
+    <message>I hate it here</message>
+  </entry>
+  <entry>
+    <entryID>2</entryID>
+    <username>angschti</username>
+    <date>22/09/2020</date>
+    <message>Dario threw a backpack at my head</message>
+  </entry>
+  <entry>
+    <entryID>3</entryID>
+    <name />
+    <username>schmedga</username>
+    <date>22/09/2020</date>
+    <message>hello</message>
+  </entry>
+  <entry>
+    <entryID>4</entryID>
+    <name />
+    <username>dari</username>
+    <date>22/09/2020</date>
+    <message>robin is lying</message>
+  </entry>
+</root>
